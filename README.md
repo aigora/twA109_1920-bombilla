@@ -5,9 +5,9 @@ Controlar la iluminacion de una bombilla mediante la intensidad del silbido.La i
 
 ## Integrantes del equipo
 
-Víctor José Villamar Guamán  usuario:@victor-villamar\n
-Valeri Paola Ramirez Moreira usuario:@VALERIRAMIREZ\n
-Carlos Sandoval Herrera usuario:@Carlos-sandoval\n
+Víctor José Villamar Guamán  usuario:@victor-villamar.
+Valeri Paola Ramirez Moreira usuario:@VALERIRAMIREZ.
+Carlos Sandoval Herrera usuario:@Carlos-sandoval.
 
 ## Objetivos del trabajo
 
