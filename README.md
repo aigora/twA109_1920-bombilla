@@ -1,7 +1,10 @@
 # Título del Trabajo
  Bombilla
 ## Descripción proyecto
-Controlar la iluminacion de una bombilla mediante la intensidad del silbido.La intensidad del silbido se detectara con un sensor de sonido que recogera los en arduino y seran enviados al ordenador.En C se desarollara un algoritmo que dependiendo de la intensidad del silbido mande una informacion u otra para que se ilumine mas o menos la bombilla.Esta informacion sera devuelta a arduino con el cual se iluminara la bombilla.
+Controlar la iluminacion de una bombilla mediante la intensidad del silbido.<p>
+La intensidad del silbido se detectara con un sensor de sonido que recogera los datos en arduino y seran enviados al ordenador.<p>
+En C se desarollara un algoritmo que con los datos recogidos dependiendo de la intensidad del silbido mande una informacion u otra para que se ilumine mas o menos la bombilla.<p>
+Esta informacion sera devuelta a arduino con el cual se iluminara la bombilla.
 
 ## Integrantes del equipo
 
