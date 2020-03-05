@@ -25,7 +25,7 @@ Esta informacion,enviada por el ordenador, sera devuelta a arduino con el cual s
 
 <li>Crear un algoritmo que sea capaz de determinar la luminosidad en funcion de la intensidad del sonido.
 
-###Hadware
+### Hadware
 Pc,Arduino UNO,Sensor de sonido,Dimmer AC,bombilla.
-###Software
+### Software
 Desarrollo en C.Programacion del microcontrolador a través del IDE de Arduino
