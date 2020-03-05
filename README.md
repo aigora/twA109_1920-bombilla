@@ -19,5 +19,13 @@ Esta informacion,enviada por el ordenador, sera devuelta a arduino con el cual s
 <p>Carlos Sandoval Herrera usuario:@Carlos-sandoval.<p>
 
 ## Objetivos del trabajo
+*Consultar bibliografia para seleccionar un algoritmo sencillo para captar la entrada de sonido como la salida de luminosidad.
 
-Lista de los objetivos que se persiguen con el trabajo propuesto.
+*Transmitir la intensidad al PC y alimentar con ella el algoritmo de determinacion de la intensidad.
+
+*Crear un algoritmo que sea capaz de determinar la luminosidad en funcion de la intensidad del sonido.
+
+###Hadware
+Pc,Arduino UNO,Sensor de sonido,Dimmer AC,bombilla.
+###Software
+Desarrollo en C.Programacion del microcontrolador a través del IDE de Arduino
