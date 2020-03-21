@@ -90,7 +90,7 @@ Para regular el voltaje AC el dimmer necesita sincronizar el cruce por cero con 
 
 Dentro del modulo tenemos dos grupos de conexiones: potencia y control. En la parte de potencia son dos borneras, se debe conectar el voltaje AC a las borneras "AC-IN", y la carga a las borneras "LOAD". En la parte de control se tienen 4 headers o pines macho, se debe conectar "VCC" a 5V DC, "GND" se conecta a 0V (GND), "Z-C" es el pin de cruce por cero (zero-cross) y debe ir conectado a una entrada digital del Arduino (Pin 2 o 3 en Arduino Uno), "PWM" es el pin de control de disparo del triac (trigger) y debe ir conectado a una salida digital del Arduino.
 
-|[esquema dimmer](http://s020.radikal.ru/i706/1604/ab/8ea593ac010d.png)|
+|[esquema dimmer](https://i.imgur.com/zV96PLe.png)|
 | :------------- |
 
 
