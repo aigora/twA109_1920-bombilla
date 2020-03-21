@@ -70,13 +70,16 @@ Si solo queremos detectar el sonido, y no medirlo, este tipo de sensores son má
 **Nota:** Deberemos calibrar el umbral de disparo de la salida digital con el potenciómetro instalado en el módulo para el nivel de sonido deseado.
 <p>
 
-![ imagen montaje](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRXftg4hnegt06hcipBUXK0vM8lgM-AMga9sbdmuGoYmGfUgmOu)
-<p>
+|![ imagen montaje](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRXftg4hnegt06hcipBUXK0vM8lgM-AMga9sbdmuGoYmGfUgmOu)|
+| :------------- |
 
-![Ejemplo codigo](http://cursoarduino.proserquisa.com/wp-content/uploads/2016/10/28-02.png)
+
+|![Ejemplo codigo](http://cursoarduino.proserquisa.com/wp-content/uploads/2016/10/28-02.png)|
+| :------------- |
 
 ##
 |Control de la intensidad-Dimmer Ac|
+| :------------- |
 |*Fuente*:https://naylampmechatronics.com/drivers/398-modulo-dimmer-ac.html|
 El módulo Dimmer AC permite controlar cargas de voltaje alterno (220V AC) desde un microcontrolador como Arduino/Pic/Raspberry Pi/ESP8266. Un Dimmer AC (a diferencia de un Relay) permite el control regulado de voltaje AC, permitiendo obtener voltajes intermedios entre 0 y 220V AC y de esa forma variar la intensidad de brillo en bombillas incandescentes, la velocidad en motores ac como ventiladores, la potencia de un calentador resistivo y más.
 
@@ -86,6 +89,7 @@ Para regular el voltaje AC el dimmer necesita sincronizar el cruce por cero con 
 
 Dentro del modulo tenemos dos grupos de conexiones: potencia y control. En la parte de potencia son dos borneras, se debe conectar el voltaje AC a las borneras "AC-IN", y la carga a las borneras "LOAD". En la parte de control se tienen 4 headers o pines macho, se debe conectar "VCC" a 5V DC, "GND" se conecta a 0V (GND), "Z-C" es el pin de cruce por cero (zero-cross) y debe ir conectado a una entrada digital del Arduino (Pin 2 o 3 en Arduino Uno), "PWM" es el pin de control de disparo del triac (trigger) y debe ir conectado a una salida digital del Arduino.
 |[esquema dimmer](https://i.ytimg.com/vi/Hl9_hd-WZ9Y/maxresdefault.jpg)|
+| :------------- |
 
 
 
