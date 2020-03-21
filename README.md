@@ -34,8 +34,8 @@ Desarrollo en C.Programacion del microcontrolador a través del IDE de Arduino
 |Nombre|Apellidos|Nº Matricula|Email|
 | :-------------: | :-------------: |:-------------: |:-------------: |
 |Víctor José|Villamar Guamán|55512|victor.villamar.guaman@alumnos.upm.es|
-|           |               |     |                                     |
-|           |               |     |                                     |
+|Valeri Paola|Ramirez Moreira|     |                                     |
+|Carlos|Sandoval Herrera|54866|                                     |
 
 ## Título y resumen
 
