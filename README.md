@@ -30,9 +30,14 @@ Pc,Arduino UNO,Sensor de sonido,Dimmer AC,bombilla.
 ### Software
 Desarrollo en C.Programacion del microcontrolador a través del IDE de Arduino
 
-
+## Datos de los miembros del grupo
 |Nombre|Apellidos|Nº Matricula|Email|
 | :-------------: | :-------------: |:-------------: |:-------------: |
 |Víctor José|Villamar Guamán|55512|victor.villamar.guaman@alumnos.upm.es|
 |           |               |     |                                     |
 |           |               |     |                                     |
+##Título y resumen
+
+|Encendido de bombilla con el silbido con C y Arduino|
+| :------------- |
+|Sistema electronico basado en un sistema capaz de aumentar la intensidad de una bombilla mediante el silbido.El silbido sera captado con un sensor de sonido y la intensidad de la bombilla sera modificado con un dimmer.El sistema de comunicarse con el ordenador para determinar con que intensidad se iluminara la bombilla dependiendo de la intensidad del silbido|
