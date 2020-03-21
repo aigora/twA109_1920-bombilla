@@ -50,10 +50,10 @@ Desarrollo en C.Programacion del microcontrolador a través del IDE de Arduino
 3ºCada vez que aumente el silbido el sensor de sonido manda la informacion al microcontrolador.
 4ºCon el algoritmo del ordenador el dimmer aumenta o disminuye la intensidad de la bombilla.|
 
-** Hadware-Fundamentos técnicos
+## Hadware-Fundamentos técnicos
 |Detectacion del sonido-Sensor sonido KY-038|
 | :------------- |
-|Fuente:https://www.luisllamas.es/detectar-sonido-con-arduino-y-microfono-ky-038/|
+|*Fuente*:https://www.luisllamas.es/detectar-sonido-con-arduino-y-microfono-ky-038/|
 
 Un micrófono es un transductor que convierte las ondas sonoras en señales eléctricas.Podemos conectar un micrófono a un procesador como Arduino para detectar sonidos.
 La salida producida por un micrófono es una señal eléctrica analógica que representa el sonido recibido. Sin embargo, en general, esta señal demasiado baja para ser medida y tiene que ser amplificada.<p>
@@ -70,10 +70,22 @@ Si solo queremos detectar el sonido, y no medirlo, este tipo de sensores son má
 **Nota:** Deberemos calibrar el umbral de disparo de la salida digital con el potenciómetro instalado en el módulo para el nivel de sonido deseado.
 <p>
 
-|![ imagen montaje](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRXftg4hnegt06hcipBUXK0vM8lgM-AMga9sbdmuGoYmGfUgmOu)|
+![ imagen montaje](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRXftg4hnegt06hcipBUXK0vM8lgM-AMga9sbdmuGoYmGfUgmOu)
 <p>
 
-|![Ejemplo codigo](http://cursoarduino.proserquisa.com/wp-content/uploads/2016/10/28-02.png)|
+![Ejemplo codigo](http://cursoarduino.proserquisa.com/wp-content/uploads/2016/10/28-02.png)
+
+##
+|Control de la intensidad-Dimmer Ac|
+|*Fuente*:https://naylampmechatronics.com/drivers/398-modulo-dimmer-ac.html|
+El módulo Dimmer AC permite controlar cargas de voltaje alterno (220V AC) desde un microcontrolador como Arduino/Pic/Raspberry Pi/ESP8266. Un Dimmer AC (a diferencia de un Relay) permite el control regulado de voltaje AC, permitiendo obtener voltajes intermedios entre 0 y 220V AC y de esa forma variar la intensidad de brillo en bombillas incandescentes, la velocidad en motores ac como ventiladores, la potencia de un calentador resistivo y más.
+
+Un dimmer integra dos etapas: el detector de cruce por zero y el triac. El detector de cruce por cero es un circuito (normalmente un optoacoplador) que permite identificar el instante en el que el voltaje alterno tiene un valor de 0V, es decir cuando el voltaje "cruza" de voltaje positivo a negativo y viceversa. Los triacs son dispositivos semiconductores (tiristor) que pueden permitir el paso de corriente AC mediante una señal de disparo en cada semiciclo de corriente AC. Los Triac son el corazón de los Relay de estado solido o SSR. A diferencia de los relays mecánicos tradicionales un Triac puede activarse muy rápido permitiendo el paso de una porción de la onda de voltaje alterno.
+
+Para regular el voltaje AC el dimmer necesita sincronizar el cruce por cero con el microcontrolador y a partir de ese instante decidir el momento de activación del Triac, de esa forma es posible regular que parte de la onda senoidal estará activa. Esta técnica es conocida como control por ángulo de disparo y es la más recomendada para variar el brillo en bombillas sin causar parpadeos. Otro método de control usando este dispositivo es la Modulación por salto de pulso.
+
+Dentro del modulo tenemos dos grupos de conexiones: potencia y control. En la parte de potencia son dos borneras, se debe conectar el voltaje AC a las borneras "AC-IN", y la carga a las borneras "LOAD". En la parte de control se tienen 4 headers o pines macho, se debe conectar "VCC" a 5V DC, "GND" se conecta a 0V (GND), "Z-C" es el pin de cruce por cero (zero-cross) y debe ir conectado a una entrada digital del Arduino (Pin 2 o 3 en Arduino Uno), "PWM" es el pin de control de disparo del triac (trigger) y debe ir conectado a una salida digital del Arduino.
+|[esquema dimmer](https://i.ytimg.com/vi/Hl9_hd-WZ9Y/maxresdefault.jpg)|
 
 
 
