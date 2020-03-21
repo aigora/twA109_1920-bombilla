@@ -54,6 +54,7 @@ Desarrollo en C.Programacion del microcontrolador a través del IDE de Arduino
 |Detectacion del sonido-Sensor sonido KY-038|
 | :------------- |
 |Fuente:https://www.luisllamas.es/detectar-sonido-con-arduino-y-microfono-ky-038/|
+
 Un micrófono es un transductor que convierte las ondas sonoras en señales eléctricas.Podemos conectar un micrófono a un procesador como Arduino para detectar sonidos.
 La salida producida por un micrófono es una señal eléctrica analógica que representa el sonido recibido. Sin embargo, en general, esta señal demasiado baja para ser medida y tiene que ser amplificada.<p>
 
