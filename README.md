@@ -33,7 +33,6 @@ Desarrollo en C.
 |Sistema electronico basado en un microcontrolador capaz de aumentar la intensidad de una bombilla mediante el silbido.El silbido sera captado con un sensor de sonido y la intensidad de la bombilla sera modificado con un dimmer.El sistema de comunicarse con el ordenador para determinar con que intensidad se iluminara la bombilla dependiendo de la intensidad del silbido.|
 |![imagen proyecto](https://i.imgur.com/vqvOgMz.png)|
 |Requisitos funcionales|
-| :------------- |
 |1º-La aplicacion dispone de un control en pantalla para iniciar todo el proceso.
 2º- Al inciar el proceso,el microcontrolador acciona el sensor de sonido.
 3ºCada vez que aumente el silbido el sensor de sonido manda la informacion al microcontrolador.
