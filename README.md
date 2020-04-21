@@ -1,30 +1,18 @@
-# Título del Trabajo
- Bombilla
+﻿# Título del Trabajo
+ Snake
 ## Descripción proyecto
-Controlar la iluminacion de una bombilla mediante la intensidad del silbido.<p>
-La intensidad del silbido se detectara con un sensor de sonido que recogera los datos en arduino y seran enviados al ordenador.<p>
-En C se desarollara un algoritmo que con los datos recogidos mande una informacion u otra para que se ilumine mas o menos la bombilla.<p>
-Esta informacion,enviada por el ordenador, sera devuelta a arduino con el cual se iluminara la bombilla.
-
-
-
-
-![Untitled Diagram](https://user-images.githubusercontent.com/61121669/76017871-9bc18f80-5f1f-11ea-8e34-9d41923a7931.png)
-
+El juego consiste en que dos o más jugadores controlan una larga y delgada línea semejante a una serpiente. Para obtener puntos el usuario deberá recopilar los cuadrados que encuentre a su paso lo que aumentará su tamaño, pudiendo moverse en línea recta y haciendo giros de noventa grados en cualquiera de las direcciones. Además, deberá evitar chocar consigo mismo, con los demás participantes y con los bordes de la pantalla en cuyo caso si lo hiciera el juego terminaría.
 
 ## Integrantes del equipo
 
-<p>Víctor José Villamar Guamán  usuario:@victor-villamar.<p>
-<p>Valeri Paola Ramirez Moreira usuario:@VALERIRAMIREZ.<p>
-<p>Carlos Sandoval Herrera usuario:@Carlos-sandoval.<p>
+Víctor José Villamar Guamán  usuario:@victor-villamar.
+Valeri Paola Ramirez Moreira usuario:@VALERIRAMIREZ.
+Carlos Sandoval Herrera usuario:@Carlos-sandoval.
 
 ## Objetivos del trabajo
-<li>Consultar bibliografia para seleccionar un algoritmo sencillo para captar la entrada de sonido como la salida de luminosidad.
-
-<li>Transmitir la intensidad al PC y alimentar con ella el algoritmo de determinacion de la intensidad.
-
-<li>Crear un algoritmo que sea capaz de determinar la luminosidad en funcion de la intensidad del sonido.
-
+•	Moverse en todas las direcciones y cambiar de dirección haciendo giros de noventa grados.
+•	Evitar chocar contra los demás participantes, consigo mismo, con las paredes del juego.
+•	Conseguir el mayor número de cuadrados que pueda para aumentar su tamaño.
 ### Hadware
 Pc,Arduino UNO,Sensor de sonido,Dimmer AC,bombilla.
 ### Software
