@@ -39,4 +39,5 @@ Desarrollo en C.
 4º- La puntuacion realizada debe ser almacenada y poder acceder a ella al final de la partida.|
 
 ## Identificacion de  subprogramas
+-Funcion gotoxy para representar en pantalla piezas sencillas.
 
