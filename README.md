@@ -7,7 +7,8 @@ El juego consiste en que dos o más jugadores controlan una larga y delgada lín
 
 Víctor José Villamar Guamán.Usuario:@victor-villamar.<p>
 Valeri Paola Ramirez Moreira.Usuario:@VALERIRAMIREZ.<p>
-Carlos Sandoval Herrera.Usuario:@Carlos-sandoval.<p>
+Carlos Sandoval Herrera.
+Usuario:@Carlos-sandoval.<p>
 
 ## Objetivos del trabajo
 -Conseguir que dos personas puedan jugar de forma simultanea desde un mismo teclado.<p>
@@ -36,4 +37,6 @@ Desarrollo en C.
 2º- Poder elegir jugar solo o con mas jugadores.
 3º- La serpiente debe poder realizar cualquier tipo de giro para poder moverse con libertad por la pantalla
 4º- La puntuacion realizada debe ser almacenada y poder acceder a ella al final de la partida.|
+
+### Identificacion de  subprogramas
 
