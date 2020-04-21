@@ -10,9 +10,9 @@ Valeri Paola Ramirez Moreira usuario:@VALERIRAMIREZ.
 Carlos Sandoval Herrera usuario:@Carlos-sandoval.
 
 ## Objetivos del trabajo
-•	Moverse en todas las direcciones y cambiar de dirección haciendo giros de noventa grados.
-•	Evitar chocar contra los demás participantes, consigo mismo, con las paredes del juego.
-•	Conseguir el mayor número de cuadrados que pueda para aumentar su tamaño.
+*Moverse en todas las direcciones y cambiar de dirección haciendo giros de noventa grados.<p>
+*Evitar chocar contra los demás participantes, consigo mismo, con las paredes del juego.<p>
+*Conseguir el mayor número de cuadrados que pueda para aumentar su tamaño.<p>
 ### Hadware
 Pc,Arduino UNO,Sensor de sonido,Dimmer AC,bombilla.
 ### Software
