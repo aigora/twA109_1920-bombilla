@@ -38,5 +38,5 @@ Desarrollo en C.
 3º- La serpiente debe poder realizar cualquier tipo de giro para poder moverse con libertad por la pantalla
 4º- La puntuacion realizada debe ser almacenada y poder acceder a ella al final de la partida.|
 
-### Identificacion de  subprogramas
+## Identificacion de  subprogramas
 
