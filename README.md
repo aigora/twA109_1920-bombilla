@@ -10,9 +10,10 @@ Valeri Paola Ramirez Moreira usuario:@VALERIRAMIREZ.
 Carlos Sandoval Herrera usuario:@Carlos-sandoval.
 
 ## Objetivos del trabajo
--Moverse en todas las direcciones y cambiar de dirección haciendo giros de noventa grados.<p>
--Evitar chocar contra los demás participantes, consigo mismo, con las paredes del juego.<p>
--Conseguir el mayor número de cuadrados que pueda para aumentar su tamaño.<p>
+-Conseguir que dos personas puedan jugar de forma simultanea desde un mismo teclado.<p>
+-Poder crear la posibilidad de jugar de forma individual o poder hacer un torneo.<p>
+-Tener encuenta todos los factores que pueden hacer perder al jugador.<p>
+-Crear un contador con la puntucion de los jugadores para ver su clasificacion.<p>
 ### Hadware
 Nuestro trabajo no requiere hadware.
 ### Software
