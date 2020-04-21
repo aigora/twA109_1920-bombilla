@@ -14,9 +14,9 @@ Carlos Sandoval Herrera usuario:@Carlos-sandoval.
 -Evitar chocar contra los demás participantes, consigo mismo, con las paredes del juego.<p>
 -Conseguir el mayor número de cuadrados que pueda para aumentar su tamaño.<p>
 ### Hadware
-Pc,Arduino UNO,Sensor de sonido,Dimmer AC,bombilla.
+Nuestro trabajo no requiere hadware.
 ### Software
-Desarrollo en C.Programacion del microcontrolador a través del IDE de Arduino
+Desarrollo en C.
 
 ## Datos de los miembros del grupo
 |Nombre|Apellidos|Nº Matricula|Email|
