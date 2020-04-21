@@ -5,9 +5,9 @@ El juego consiste en que dos o más jugadores controlan una larga y delgada lín
 
 ## Integrantes del equipo
 
-Víctor José Villamar Guamán.  Usuario:@victor-villamar.<p>
-Valeri Paola Ramirez Moreira. Usuario:@VALERIRAMIREZ.<p>
-Carlos Sandoval Herrera. Usuario:@Carlos-sandoval.<p>
+Víctor José Villamar Guamán.Usuario:@victor-villamar.<p>
+Valeri Paola Ramirez Moreira.Usuario:@VALERIRAMIREZ.<p>
+Carlos Sandoval Herrera.Usuario:@Carlos-sandoval.<p>
 
 ## Objetivos del trabajo
 -Conseguir que dos personas puedan jugar de forma simultanea desde un mismo teclado.<p>
