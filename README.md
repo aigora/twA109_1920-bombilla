@@ -32,8 +32,8 @@ Desarrollo en C.
 | :------------- |
 |Programa en el cual uno o mas jugadores controlan una serpiente simulada por "--" en un espacio limitado en el cual van apareciendo recuadros.El jugador obtiene puntos por cada cuadrado que recoge aumentado la longitud de la serpiente.El usuario pierde cuando choca consigo mismo,con la paredes de la pantalla o si choca con otro jugador.Una vez acabado la partida saldra la puntuacion de los jugadores de mayor a menor.La puntuacion viene determinada por la longitud de la serpiente de cada jugador.|
 |**Requisitos funcionales**|
-|1º Poder jugar dos jugadores de forma simultanea con diferentes teclas del teclado.
-2º Poder elegir jugar solo o con mas jugadores.
-3º La serpiente debe poder realizar cualquier tipo de giro para poder moverse con libertad por la pantalla
-4ºLa puntuacion realizada debe ser almacenada y poder acceder a ella al final de la partida.|
+|1º-Poder jugar dos jugadores de forma simultanea con diferentes teclas del teclado.
+2º- Poder elegir jugar solo o con mas jugadores.
+3º- La serpiente debe poder realizar cualquier tipo de giro para poder moverse con libertad por la pantalla
+4º- La puntuacion realizada debe ser almacenada y poder acceder a ella al final de la partida.|
 
