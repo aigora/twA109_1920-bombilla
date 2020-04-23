@@ -39,5 +39,11 @@ Desarrollo en C.
 4º- La puntuacion realizada debe ser almacenada y poder acceder a ella al final de la partida.|
 
 ## Identificacion de  subprogramas
--Funcion gotoxy para representar en pantalla piezas sencillas.
+-<b>Funcion gotoxy</b>: para representar en pantalla piezas sencillas.Lo que permite esta funciones situar el cursor en el punto en el que quieres empezar a imprimir.Esta funcion devuelve un valor entero.<p>
+-<b>Función guardar_posicion</b>:para guardar la posicion en la que se encuentra nuestra serpiente.Esta funcion no devuelve nada.<p>
+-<b>Función dibujar_cuerpo</b>:para dibujar el cuerpo de la serpiente.Dentro tiene incluida la funcion gotoxy en un bucle para aumentar el tamaño de la serpiente cuando la varibale "tam" aumente.Esta funcion no devuelve nada</p>
+-<b>Función borrar_cuerpo</b>:para borrar el cuerpo de la serpiente.Es la misma funcion que dibujar_cuerpo pero en vez de imprimir un * impirme un espacio.Esta funcion no devuelve nada.
+-<b>Función teclado</b>:para mover la serpiente con las flechas del teclado.Dentro lleva incorporado la funcion kbhit que devuelve uno cuando se pulsa una tecla y cero si no se ha pulsado.Para capturar la tecla pulsada se utiliza la funcion getch que devuelve la tecla pulsada.
+-<b>Función dibujar_comida</b>:para dibujar la comida.Dentro de ella lleva la funcion rand para que al aplicar la funcion gotoxy no situe el cursor en lugares aleatorios.Ademas cada vez que se ejecuta esta funcion se aumenta el tamaño de la serpiente y los puntos.
+<b>Función puntuacion</b>:para representar la puntuación del jugador.Dentro lleva la funcion gotoxy para situar el marcador.
 
