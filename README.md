@@ -49,10 +49,10 @@ Desarrollo en C.
 <b>-Función puntuacion</b>:para representar la puntuación del jugador.Dentro lleva la funcion gotoxy para situar el marcador.<p>
 <b>-Función game_over</b>:para determinar cuando se temina el juego.La funcion recorre los elementos que forman la serpiente y si coincide su posicion con las paredes del mapa o con sigo misma (en el caso de dos jugadores lo mismo con la otra serpiente y ademas compara que ambas no tengan la misma posición) devuelve false.<p>
 <b>-Funcion ganador_2j</b>:determina en el modo de dos jugadores quien ha ganado comparando sus puntuaciones.En el caso de que sean iguales o que ninguno tenga puntuacion considera que es empate.<p>
-<b>-Función menu</b>:Crea un menu de opciones para determinar a que modo quieres acceder.Este menu se repite hasta que el usuario pulse la tecla 3.<p>
-<b>-Función un_jugador</b>:Incorpora todas las funciones excepto las de dos jugadores.Funcion que pone en marcha el juego.<p>
-<b>-Funcion dos_jugador</b>:Incopora todas las funciones y pone en marcha el juego pero para dos personas.<p>
-<b>-Función marcador</b>:Crea un marcador al final de la partida de un jugador.<p>
+<b>-Función menu</b>:crea un menu de opciones para determinar a que modo quieres acceder.Este menu se repite hasta que el usuario pulse la tecla 3.<p>
+<b>-Función un_jugador</b>:incorpora todas las funciones excepto las de dos jugadores.Funcion que pone en marcha el juego.<p>
+<b>-Funcion dos_jugador</b>:incopora todas las funciones y pone en marcha el juego pero para dos personas.<p>
+<b>-Función marcador</b>:crea un marcador al final de la partida de un jugador.<p>
 <b>-Función ocultar_cursor</b>:Oculta el cursor.<p>
 
 
