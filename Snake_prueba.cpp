@@ -27,8 +27,8 @@ void dibujar_cuerpo2();
 void borrar_cuerpo2();
 void guardar_posicion2();
 void dibujar_comida();
-bool game_over1();
-bool game_over2();
+int game_over1();
+int game_over2();
 void ganador_2j();
 void cambiar_velocidad();
 void puntuacion();
@@ -213,27 +213,28 @@ void dibujar_comida ()
 		
 }
 
-bool game_over1()
+int game_over1()
 {	
+	int bandera=1;
 	if(y1==3|| y1== 30||x1==2 ||x1==99 )
-		return false;
+		bandera=0;
 		for(int j=tam1-1;j>0;j--)	//recorremos todos los valores de la matriz cuerpo
 		{
 			if(cuerpo1[j][0]==x1 && cuerpo1[j][1]==y1 && cuerpo2[j][0]==x2 && cuerpo1[j][1]==y2 && cuerpo1[j][0]==x2 && cuerpo1[j][1]==y2 )
-			return false;
+			bandera=0;
 		}
-	return true;
+	return bandera;
 }
-bool game_over2()
-{	
+int game_over2()
+{	int bandera=1;
 	if(y1==3|| y1== 30||x1==2 ||x1==99 ||y2==3|| y2== 30||x2==2 ||x2==99 )
-		return false;
+		bandera=0;
 		for(int j=tam1-1;j>0;j--)	//recorremos todos los valores de la matriz cuerpo
 		{
 			if((cuerpo1[j][0]==x1 && cuerpo1[j][1]==y1 )|| (cuerpo1[j][0]==x2 && cuerpo1[j][1]==y2) ||(cuerpo2[j][0]==x2 && cuerpo2[j][1]==y2) )
-			return false;
+			bandera=0;
 		}
-	return true;
+		return bandera;
 }
 void ganador_2j()
 {
@@ -346,7 +347,7 @@ void un_jugador()
 	gotoxy(comidax,comiday);
 	printf("%c",4);
 	
-	while(tecla1!=esc&& game_over1()) //bucle 
+	while(tecla1!=esc&& game_over1()==1) //bucle 
 	{	
 		ocultar_cursor();
 		pintar();
@@ -375,7 +376,7 @@ void dos_jugador()
 	gotoxy(comidax,comiday);
 	printf("%c",4);
 	
-	while(tecla1!=esc&& game_over2()&&tecla2!=esc) //bucle 
+	while(tecla1!=esc&& game_over2()==1&&tecla2!=esc) //bucle 
 	{	
 		ocultar_cursor();
 		pintar();
