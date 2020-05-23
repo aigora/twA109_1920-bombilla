@@ -25,7 +25,7 @@ Desarrollo en C.
 | :-------------: | :-------------: |:-------------: |:-------------: |
 |Víctor José|Villamar Guamán|55512|victor.villamar.guaman@alumnos.upm.es|
 |Valeri Paola|Ramirez Moreira|     |                                     |
-|Carlos|Sandoval Herrera|54866|                                     |
+|Carlos|Sandoval Herrera|          |                                     |
 
 ## Título y resumen
 
@@ -40,18 +40,22 @@ Desarrollo en C.
 
 ## Identificacion de  subprogramas
 <b>-Funcion gotoxy</b>: para representar en pantalla piezas sencillas.Lo que permite esta funciones situar el cursor en el punto en el que quieres empezar a imprimir.Esta funcion devuelve un valor entero.<p>
-<b>-Función guardar_posicion</b>:para guardar la posicion en la que se encuentra nuestra serpiente.Esta funcion no devuelve nada.<p>
-<b>-Función dibujar_cuerpo</b>:para dibujar el cuerpo de la serpiente.Dentro tiene incluida la funcion gotoxy en un bucle para aumentar el tamaño de la serpiente cuando la varibale "tam" aumente.Esta funcion no devuelve nada<p>
-<b>-Función borrar_cuerpo</b>:para borrar el cuerpo de la serpiente.Es la misma funcion que dibujar_cuerpo pero en vez de imprimir un * imprime un espacio.Esta funcion no devuelve nada.<p>
+<b>-Función guardar_posicion1y2</b>:para guardar la posicion en la que se encuentra nuestra serpiente.Esta funcion no devuelve nada.<p>
+<b>-Función dibujar_cuerpo1y2</b>:para dibujar el cuerpo de la serpiente.Dentro tiene incluida la funcion gotoxy en un bucle para aumentar el tamaño de la serpiente cuando la varibale "tam" aumente.Esta funcion no devuelve nada<p>
+<b>-Función borrar_cuerpo1y2</b>:para borrar el cuerpo de la serpiente.Es la misma funcion que dibujar_cuerpo pero en vez de imprimir un * imprime un espacio.Esta funcion no devuelve nada.<p>
 <b>-Función pintar</b>:Delimita el mapa del juego.Dentro lleva incorporada la funcíon gotoxy para que el cursor se coloque en la posición para dibujar el mapa.<p>
 <b>-Función teclado1</b>:para mover la serpiente con las flechas del teclado en un jugador y en el caso que sean dos jugadores tambien con las letras awsd.Dentro lleva incorporado la funcion kbhit que devuelve uno cuando se pulsa una tecla y cero si no se ha pulsado.Para capturar la tecla pulsada se utiliza la funcion getch que devuelve la tecla pulsada.<p>
 <b>-Función dibujar_comida</b>:para dibujar la comida.Dentro de ella lleva la funcion rand para que al aplicar la funcion gotoxy no situe el cursor en lugares aleatorios.Ademas cada vez que se ejecuta esta funcion se aumenta el tamaño de la serpiente y los puntos.<p>
-<b>-Función puntuacion</b>:para representar la puntuación del jugador.Dentro lleva la funcion gotoxy para situar el marcador.<p>
-<b>-Función game_over</b>:para determinar cuando se temina el juego.La funcion recorre los elementos que forman la serpiente y si coincide su posicion con las paredes del mapa o con sigo misma (en el caso de dos jugadores lo mismo con la otra serpiente y ademas compara que ambas no tengan la misma posición) devuelve 0.<p>
+<b>-Función puntuacion</b>:para representar la puntuación del jugador en los modos de 1/2 jugadores y en el modo de torneo de jugadores pares.Dentro lleva la funcion gotoxy para situar el marcador.<p>
+<b>-Función cambiar_velocidad</b>: función que disminuye la velocidad del juego para que parezca que se mueve mas rapido la serpiente.<p>
+<b>-Función game_over1 y2</b>:para determinar cuando se temina el juego.La funcion recorre los elementos que forman la serpiente y si coincide su posicion con las paredes del mapa o con sigo misma (en el caso de dos jugadores lo mismo con la otra serpiente y ademas compara que ambas no tengan la misma posición) devuelve 1 si no coincide y 0 si coincide.<p>
 <b>-Funcion ganador_2j</b>:determina en el modo de dos jugadores quien ha ganado comparando sus puntuaciones.En el caso de que sean iguales o que ninguno tenga puntuacion considera que es empate.<p>
-<b>-Función menu</b>:crea un menu de opciones para determinar a que modo quieres acceder.Este menu se repite hasta que el usuario pulse la tecla 3.<p>
-<b>-Función un_jugador</b>:incorpora todas las funciones excepto las de dos jugadores.Funcion que pone en marcha el juego.<p>
-<b>-Funcion dos_jugador</b>:incopora todas las funciones y pone en marcha el juego pero para dos personas.<p>
+<b>-Función menu</b>:crea un menu de opciones para determinar a que modo quieres acceder.Este menu se repite hasta que el usuario pulse la tecla 4.Lleva incorporado las funciones un_jugador,marcador,dos_jugador,torneo.<p>
+<b>-Función un_jugador</b>:Funcion que pone en marcha el juego para un jugador.<p>
+<b>-Funcion dos_jugador</b>:Funciones que pone en marcha el juego pero para dos personas.<p>
+<b>-Función torneo</b>:Funcion que crea un torneo que necesita un minimo de 3 jugadores y un maximo de 8 jugadores.Si los jugadores son impares realiza un bucle con la funcion un_jugador y si son impares realiza un bucle con la funcion de dos_jugador.<p>
+<b>-Función ganar_torneo_i</b>:Funcion que determina el ganador de el torneo de jugadores impares.<p>
+<b>-Función ganar_torneo_p</b>:Funcion que determina el ganador de el torneo de jugadores pares.<p>
 <b>-Función marcador</b>:crea un marcador al final de la partida de un jugador.<p>
 <b>-Función ocultar_cursor</b>:Oculta el cursor.<p>
 
